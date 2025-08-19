@@ -1,11 +1,10 @@
 ---
-layout: home
+permalink: /
 title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-permalink: /
 ---
 
 I am a Ph.D. candidate in Government at Harvard University and a James M. and Cathleen D. Stone PhD Scholar in Inequality and Wealth Concentration at the Harvard Kennedy School. 
