@@ -5,10 +5,20 @@ permalink: /research/
 author_profile: true
 ---
 
-# Selected Works in Progress
+# Job Market Paper
 
-1. Dissertation project: Essays on the Political Economy of Firm Nationality
+Local Fracture, Large-Scale Cooperation: Why Diverse Groups Disagree Yet Collective Action Succeeds
 
-2. The Good, The Bad, and The Ugly: Partisan Cues and Individual Perceptions of Trade Deal Quality (with Ruofan Ma)
+# Publications
 
-3. Do the Robots Make Us Racist? Exploring the Effects of Automation Exposure on Racial Bias (with Sung In Kim)
+**Hernandez, Kiara A.**, Taeku Lee, and Marcel Roman. 2025. "White Power! How White Status Threat Undercuts Backlash Against Anti-democratic Politicians." _Journal of Race, Ethnicity, and Politics._
+
+# Works in Progress
+
+Beyond Union Elections: Toward a New Understanding Worker Solidarity
+
+Firm-level Ethnoracial Diversity and Support for Unionization
+
+Do All Partisans Sort? Evidence from the American Service Sector Workforce (with Daniel Schneider)
+
+Drawing Blanks: Redistricting and Turnout Effects (with Jeremiah Cha and Angelo Dagonel)
