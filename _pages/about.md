@@ -1,18 +1,16 @@
 ---
 permalink: /
-title: "Hi there! I'm Ethan"
+title: "Welcome!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a Ph.D Candidate in the Department of Government at Harvard University. I completed my B.A. in Political Science and History at the University of Michigan. Prior to starting at Harvard, I worked as a Research Analyst at YouGov in San Francisco, California. 
+I am a Ph.D. candidate in Government at Harvard University and a James M. and Cathleen D. Stone PhD Scholar in Inequality and Wealth Concentration at the Harvard Kennedy School. My research interests are in political psychology and political behavior. Within these fields, I am primarily interested in the effects of macro-level economic transformations, economic inequality, and demographic change on intergroup relations and political attitudes in the U.S.
 
-My research sits the intersection of international & comparative political economy and political psychology and behavior. My dissertation project investigates how publics, governments, and firms imagine, evaluate, and construct nationality for multinational corporations, and the effects of corporate nationality on policymaking, regulatory outcomes, and corporate lobbying behavior.
+My research is generously supported by the Russell Sage Foundation, the Stone PhD Scholar Fellowship, the American Political Science Association Diversity Fellowship Program, and the GSAS Prize Fellowship. I am an affiliate of the Center for American Political Studies and the Institute for Quantitative Social Science, and a Graduate Student Researcher with The Shift Project. I was formerly the graduate student coordinator of the Working Group in Political Psychology and Behavior.
 
-I am affiliated with the Institute for Quantitative Social Science (IQSS) and the Center for American Political Studies (CAPS). I am also a Senior Lab Manager at Harvard’s Digital Lab for the Social Sciences (DLABSS).
+I spent my childhood in California, Germany, and, primarily, the suburbs of Houston, TX. I am the proud product of K-12 public schools and a third-generation Mexican American. Outside of the PhD, I enjoy running, playing tennis, and am trying to finally learn French.
 
-In my spare time, I enjoy photography, playing guitar, studying chess, and agonizing over Michigan athletics.
-
-I can be contacted at <ethanmiles@g.harvard.edu.>
+I can be reached by email at <khernandez@g.harvard.edu.>
