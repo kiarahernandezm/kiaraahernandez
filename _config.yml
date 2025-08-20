@@ -14,7 +14,6 @@ name                     : &name "Kiara A. Hernandez"
 description              : &description "Ph.D. Candidate, Harvard University Department of Government"
 url                      : "https://kiarahernandez.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-#repository               : "kiarahernandezm/kiarahernandezm.github.io"
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
