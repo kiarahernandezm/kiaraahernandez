@@ -10,6 +10,13 @@
  *
 */
 
+---
+# Only the main Sass file needs front matter
+---
+
+@import "minimal-mistakes/skins/default";  // pick a skin, e.g., default
+@import "minimal-mistakes";
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins;
 @import "variables";
 @import "mixins";
