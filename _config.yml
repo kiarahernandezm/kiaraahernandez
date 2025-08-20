@@ -15,6 +15,7 @@ description              : &description "Ph.D. Candidate, Harvard University Dep
 url                      : "https://kiarahernandez.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 
+
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
