@@ -25,10 +25,32 @@ header {
   align-items: flex-start;
 }
 
-.header-inner img {
-  flex: 0 0 120px;
-  width: 120px;
+.header-left {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.header-left img {
+  width: 200px;
   border-radius: 3px;
+  display: block;
+}
+
+.dept-link {
+  font-size: 13px;
+  color: #666;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1px;
+}
+
+.dept-link:hover {
+  color: #111;
+  border-bottom-color: #111;
+  text-decoration: none;
 }
 
 .bio {
@@ -173,7 +195,8 @@ footer p { margin: 0; }
     gap: 20px;
   }
 
-  .header-inner img { flex: 0 0 100px; width: 100px; }
+  .header-left { flex: 0 0 140px; }
+  .header-left img { width: 140px; }
 
   .nav-inner { padding: 0 20px; gap: 20px; }
 
