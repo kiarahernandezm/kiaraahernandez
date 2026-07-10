@@ -51,6 +51,7 @@ header {
   display: flex;
   gap: 12px;
   margin-top: 4px;
+  justify-content: center;
 }
 
 .social-links a {
