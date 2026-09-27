@@ -88,7 +88,7 @@
           <strong>Hernandez, Kiara A.</strong>, <a href="https://www.taekulee.net/about.php">Taeku Lee</a>, and <a href="https://www.marcelroman.com">Marcel Roman</a>. 2025.
           <a href="https://www.cambridge.org/core/journals/journal-of-race-ethnicity-and-politics/article/abs/white-power-how-white-status-threat-undercuts-backlash-against-antidemocratic-politicians/AC4EF96E88BAC4455D9DEE887350E0E2">"White Power! How White Status Threat Undercuts Backlash Against Anti-democratic Politicians."</a>
           <em>Journal of Race, Ethnicity, and Politics.</em>
-          <details class="abstract">
+          <details class="abstract" data-paper-title="White Power">
             <summary>Abstract (click to expand)</summary>
             <p>Prior research shows that the pro-Trump, anti-democratic January 6th insurrection (J6) led to a short-term reduction in Republican support for President Trump. However, it remains unclear why the anti-Trump backlash occurred among his electoral base. We theorize that white Republicans concerned about the declining status of Anglo whites in the American ethno-racial hierarchy were the least likely to backlash against Trump after J6. Leveraging an unexpected-event-during-survey design (UESD) and a large survey fielded shortly before and after J6, we find no difference in support for Trump due to J6 among white Republicans who strongly perceived anti-white discrimination (Study 1). We replicate this result with another UESD with a separate survey fielded during J6 (Study 2) and a difference-in-differences approach with additional panel surveys fielded around J6 (Study 3). Moreover, across four cross-sectional surveys, we find the negative relationship between J6 disapproval and Trump support post-J6 between 2021 and 2024 is attenuated among status-threatened white Republicans (Studies 4–7). Our evidence suggests racial status threat undercuts the ability of the white Republican mass public to hold co-partisan anti-democratic elites accountable for norm violations.</p>
           </details>
@@ -103,21 +103,21 @@
             <li>Honorable Mention for Best Paper, Class and Inequality Section, American Political Science Association</li>
             <li>Nominated for Dorothy Day Award for Outstanding Labor Research, American Political Science Association</li>
           </ul>
-          <details class="abstract">
+          <details class="abstract" data-paper-title="Fracture Without Failure">
             <summary>Abstract (click to expand)</summary>
             <p>How do diverse societies achieve shared political goals despite intergroup divisions? Attempts to overcome diversity's challenges for collective action often focus on improving attitudes through contact, yet cooperation also depends on strategic relations. I examine this question using U.S. service-sector labor union organizing campaigns, a high-stakes political process in which interaction across diverse workers on shared shifts is routine and observable. Using a national survey of hourly workers and administrative campaign records, I find that diversity is associated with uncertainty and disagreement about union support that sustained contact does not resolve. Evidence from a pre-registered experiment shows that diversity causes more risk-averse strategic behavior, and that this relationship is not mediated by interpersonal attitudes. I conclude that contact targets interpersonal attitudes without sufficiently reducing perceptions of strategic risk. At the same time, diversity is not associated with closer union election margins, suggesting that institutional structures may help workers overcome coordination problems and inviting further study.</p>
           </details>
         </li>
         <li>
           <a href="files/hernandez_enos_hospital_strike.pdf">How Localized Exposure to Inequality Mobilizes: Evidence from a Large Hospital Strike</a> (with <a href="https://www.ryandenos.com">Ryan D. Enos</a>)
-          <details class="abstract">
+          <details class="abstract" data-paper-title="How Localized Exposure to Inequality Mobilizes">
             <summary>Abstract (click to expand)</summary>
             <p>Mass labor strikes can make economic inequality publicly visible. Such visibility may be politically mobilizing when workers reveal how employment conditions shape the provision of an essential social good the community depends on. We explore this in the U.S. healthcare and social assistance sector, the dominant sector in recent strike activity, where worker demands frequently connect employment conditions to staffing and patient care. We document this pattern using data on U.S. labor actions since 2021 (n = 4,755), then examine the political effects of prolonged exposure to a multi-month nurses' strike in Massachusetts. Using voter-file and precinct-level election data and a difference-in-differences design comparing midterm elections (2022 vs. 2018), we assess effects on registration, turnout, and support for a redistributive ballot measure. We find no evidence that the strike increased turnout among existing voters near the hospital, nor support for the measure. But the share of registrations within one mile of the hospital was higher in 2022 than 2018, robust to demographic controls and absent in placebo comparisons. This increase accumulated gradually during and after the strike, growing more pronounced after a July 2021 service cutback. Localized strike exposure may draw new participants into the electorate by making the relationship between employment conditions and essential care salient, without activating existing voters or shifting vote choice.</p>
           </details>
         </li>
         <li>
           Do All Partisans Sort? Evidence from the American Service Sector Workforce (with <a href="https://www.hks.harvard.edu/faculty/daniel-schneider">Daniel Schneider</a>)
-          <details class="abstract">
+          <details class="abstract" data-paper-title="Do All Partisans Sort">
             <summary>Abstract (click to expand)</summary>
             <p>Existing research has documented the effects of partisan segregation for contact between groups, discriminatory behavior and local political participation in the US. However, previous work has almost exclusively focused on partisan segregation in residential settings. We argue that workplaces may hold independent explanatory power in the study of sorting based on political preferences and identity. In this paper, we investigate the effects that coworker and worker-firm (management) ideological misalignment separately have on workers' decisions to exit ideologically incompatible jobs. Then, we compare the effects of partisan sorting on intentions to transition out of jobs to material drivers of turnover. We find no evidence of the potential for sorting by ideology for workers in our sample. Ideological misalignment with coworkers and management at the firm-level is not associated with workers' intentions to exit jobs at baseline. Instead, the workers in our sample appear motivated by material job amenities, such as benefits and stable scheduling practices. By focusing on a large but understudied segment of the American workforce — low-wage service sector workers — we bring attention to the way that partisan sorting through work may operate for workers with different levels of market power. Our findings advance research on the drivers of partisan sorting and contribute to a nascent agenda focused on better understanding the effects of work on Americans' political behavior.</p>
           </details>
@@ -192,6 +192,17 @@
     }, { rootMargin: '-40% 0px -55% 0px' });
 
     targets.forEach(t => observer.observe(t));
+
+    // Track interest in individual paper abstracts in Google Analytics.
+    document.querySelectorAll('details.abstract').forEach(abstract => {
+      abstract.addEventListener('toggle', () => {
+        if (abstract.open && typeof gtag === 'function') {
+          gtag('event', 'abstract_expand', {
+            paper_title: abstract.dataset.paperTitle
+          });
+        }
+      });
+    });
   </script>
 
 </body>
